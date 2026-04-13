@@ -1,11 +1,5 @@
 # Projeto Kalify Inc - Advocato
 
-Frontend: Vite com React e Typescript
-Estilização: Tailwind ou Styled-Components
-Backend: Consumo de API com Elysia/Express
-Runtime: Node.js ou Bun.js
-URL: https://oadvocato.vercel.app/
-
 Fica livre a criação de novas pastas para projetos secundários na intenção de aprimoração como `/sides/rust`, `/sides/php`, `/sides/node` ou `/sides/dotnet`, por exemplo.
 
 Não é necessário o uso de banco de dados, usaremos uma API para consumir o projeto e não necessariamente precisará guardar essas informações.
@@ -31,6 +25,18 @@ Se estiver com dúvidas referente ao projeto [entre em nosso Discord](https://di
 # Sobre a inteligência artificial
 
 - Devemos utilizar ela como ferramenta para obter conhecimento e em hipótese alguma será aceito pull requests em que a IA foi a responsável pelo desenvolvimento. Atente-se a isso e evite o famoso `copy and paste`, coloque a mão na massa.
+
+# Tecnologias
+
+- Vite (React) com Typescript - Simples, só precisaremos de uma landing page
+- Express - Consultar API, rotas e tornar simples o consumo e entrega de requests
+- Elysia - Para mais experientes (non-canonical)
+- Banco de dados - Não necessário armazenar informações do usuário
+- Auth - Não necessário autenticação
+
+**O que seria a pasta sides**
+
+- Podem criar versões alternativas do projeto para buscar conhecimento ou aprimorar o conhecimento disponível usando a marca da Advocato.
 
 ---
 
