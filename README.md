@@ -34,7 +34,7 @@ Se estiver com dúvidas referente ao projeto [entre em nosso Discord](https://di
 - Banco de dados - Não necessário armazenar informações do usuário
 - Auth - Não necessário autenticação
 
-**O que seria a pasta sides**
+### O que seria a pasta sides
 
 - Podem criar versões alternativas do projeto para buscar conhecimento ou aprimorar o conhecimento disponível usando a marca da Advocato.
 
