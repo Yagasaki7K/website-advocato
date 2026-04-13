@@ -24,6 +24,8 @@ Se estiver com dificuldade, leia o artigo de [Curso de Introdução e Contribui�
 
 Se estiver com dúvidas referente ao projeto [entre em nosso Discord](https://discord.gg/jhSepmE7nN)
 
+Somente façam o que está escrito em issue, vinculada ao projeto. Qualquer pull request que for além, será recusado, precisamos deixar espaço para outras pessoas conseguirem desenvolver e resolver problemas simples como `rate limit`, `cache`, `localStorage` e etc, se necessário.
+
 # Sobre a inteligência artificial
 
 - Devemos utilizar ela como ferramenta para obter conhecimento e em hipótese alguma será aceito pull requests em que a IA foi a responsável pelo desenvolvimento. Atente-se a isso e evite o famoso `copy and paste`, coloque a mão na massa.
