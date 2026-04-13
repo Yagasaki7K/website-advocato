@@ -1,5 +1,9 @@
 # Projeto Kalify Inc - Advocato
 
+<p align="center">
+    <img src="https://github.com/Yagasaki7K/website-advocato/blob/main/public/logo-transparente.png?raw=true"/>
+</p>
+
 Fica livre a criação de novas pastas para projetos secundários na intenção de aprimoração como `/sides/rust`, `/sides/php`, `/sides/node` ou `/sides/dotnet`, por exemplo.
 
 Não é necessário o uso de banco de dados, usaremos uma API para consumir o projeto e não necessariamente precisará guardar essas informações.
