@@ -26,6 +26,8 @@ Obrigado aos envolvidos: @Yagasaki7K.
 
 Se estiver com dificuldade, leia o artigo de [Curso de Introdução e Contribuição ao Código Aberto](https://yagasaki.vercel.app/artigo/introducao-ao-codigo-aberto)
 
+Se estiver com dúvidas referente ao projeto [entre em nosso Discord](https://discord.gg/jhSepmE7nN)
+
 # Sobre a inteligência artificial
 
 - Devemos utilizar ela como ferramenta para obter conhecimento e em hipótese alguma será aceito pull requests em que a IA foi a responsável pelo desenvolvimento. Atente-se a isso e evite o famoso `copy and paste`, coloque a mão na massa.
