@@ -16,7 +16,19 @@ Obrigado aos envolvidos: @Yagasaki7K.
 
 # Como contribuir?
 
-Em breve.
+- Verifique a disponibilidade da funcionalidade ou se ela já está em andamento através dos [projetos](https://github.com/users/Yagasaki7K/projects/10), se ela estiver disponível em "Ready", abra um pull request sobre.
+
+1. Faça um fork do projeto.
+2. Abra uma brench como `feature/nome-da-alteracao`
+3. Faça as alterações
+4. Abra um pull request
+5. Aguarde feedbacks.
+
+Se estiver com dificuldade, leia o artigo de [Curso de Introdução e Contribuição ao Código Aberto](https://yagasaki.vercel.app/artigo/introducao-ao-codigo-aberto)
+
+# Sobre a inteligência artificial
+
+- Devemos utilizar ela como ferramenta para obter conhecimento e em hipótese alguma será aceito pull requests em que a IA foi a responsável pelo desenvolvimento. Atente-se a isso e evite o famoso `copy and paste`, coloque a mão na massa.
 
 ---
 
