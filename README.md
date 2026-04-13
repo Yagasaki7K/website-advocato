@@ -1,14 +1,12 @@
-# Projeto Kalify Inc - Advocato
-
 <p align="center">
     <img src="https://github.com/Yagasaki7K/website-advocato/blob/main/public/logo-transparente.png?raw=true"/>
 </p>
 
-Fica livre a criação de novas pastas para projetos secundários na intenção de aprimoração como `/sides/rust`, `/sides/php`, `/sides/node` ou `/sides/dotnet`, por exemplo.
-
-Não é necessário o uso de banco de dados, usaremos uma API para consumir o projeto e não necessariamente precisará guardar essas informações.
+# Projeto Kalify Inc - Advocato
 
 Projeto open source na intenção de ajudar a comunidade no desenvolvimento. Todo feedback, sugestão será revisado.
+
+A intenção do projeto é através de um consumo simples de API, facilitar a busca e as informações obtidas ao buscar processos judiciais. O projeto não tem cunho financeiro algum.
 
 Obrigado aos envolvidos: @Yagasaki7K.
 
@@ -40,7 +38,9 @@ Se estiver com dúvidas referente ao projeto [entre em nosso Discord](https://di
 
 ### O que seria a pasta sides
 
-- Podem criar versões alternativas do projeto para buscar conhecimento ou aprimorar o conhecimento disponível usando a marca da Advocato.
+Fica livre a criação de novas pastas para projetos secundários na intenção de aprimoração como `/sides/rust`, `/sides/php`, `/sides/node` ou `/sides/dotnet`, por exemplo. Podem criar versões alternativas do projeto para buscar conhecimento ou aprimorar o conhecimento disponível usando a marca da Advocato.
+
+Não é necessário o uso de banco de dados, usaremos uma API para consumir o projeto e não necessariamente precisará guardar essas informações.
 
 ---
 
