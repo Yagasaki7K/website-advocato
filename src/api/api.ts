@@ -15,5 +15,5 @@ app.get("/processos-judiciais/:numero", async (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("Server running, all checked");
+  console.log("Server running, all checked!");
 });
