@@ -15,7 +15,7 @@ Obrigado aos envolvidos: @Yagasaki7K.
 - Verifique a disponibilidade da funcionalidade ou se ela já está em andamento através dos [projetos](https://github.com/users/Yagasaki7K/projects/10), se ela estiver disponível em "Ready", abra um pull request sobre.
 
 1. Faça um fork do projeto.
-2. Abra uma brench como `feature/nome-da-alteracao`
+2. Abra uma branch como `feature/nome-da-alteracao`
 3. Faça as alterações
 4. Abra um pull request
 5. Aguarde feedbacks.

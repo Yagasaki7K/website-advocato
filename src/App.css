@@ -1,4 +1,197 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root {
+  --color-main: rgb(46, 46, 46);;
+  --color-segunda:  rgb(228, 225, 225);;
+}
+header, h1{
+    background-color: rgb(86, 130, 3);
+    padding: 20px;
+}
+body{
+    background-color: rgb(152, 201, 85);
+}
+div{
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h1, h2{
+    color: white;
+}
+h1 {
+    background-image: url(/public/logo-transparente.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: 40%;
+    background-color: rgb(86, 130, 3);
+    transition: color 0.3s ease;
+}
+
+h1:hover {
+    color: rgb(205, 220, 57);
+}
+h1:active {
+    color: rgb(152, 201, 85);
+}
+input{
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(228, 225, 225);
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 20px;
+    color: rgb(46, 46, 46);
+    width: 45%;
+}
+button{
+    margin: 20px;
+    padding: 5px;
+    margin-left: -50px;
+    font-size: 20px;
+    background-color: rgb(85, 148, 69);
+    border-radius: 5px;
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color:  rgb(85, 202, 55);
+}
+li{
+    color: white;
+    list-style: none;
+}
+.howWork{
+    width: 30%;
+    padding: 2px;
+    background-color: rgb(86, 130, 3);
+    margin: 2rem auto;
+    border-radius: 8px;
+    text-align: left;
+}
+.howTitle{
+    text-align: left;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color:  rgb(205, 220, 57);
+}
+.howTitle svg {
+    color:  rgb(139, 90, 43);
+}
+li{
+    margin: 1rem 0;
+    font-size: 18px;
+}
+fieldset{
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(75, 71, 71);
+}
+strong{
+   background-color: rgb(139, 90, 43);
+    padding: 5px;
+    color: rgb(152, 201, 85);
+    margin: 5px;
+    border-radius: 5px;
+}
+p{
+    color: rgb(1, 92, 1)
+}
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.features p {
+    margin: 0;
+    color: rgb(1, 92, 1);
+}
+/* Celular pequeno */
+@media (max-width: 480px) {
+    .howWork {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    input {
+        width: 95%;
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 0.5rem;
+    }
+
+    .features {
+        flex-direction: column;
+        gap: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .logo {
+        width: 50px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .howWork {
+        width: 85%;
+    }
+
+    input {
+        width: 85%;
+    }
+
+    .features {
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .howWork {
+        width: 25%;
+    }
+
+    input {
+        width: 40%;
+    }
+}
+summary {
+    background-color: rgb(139, 90, 43);
+    width: 20%;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 5px;
+    margin: 4px auto;
+    color: white;
+    cursor: pointer;
+    display: -webkit-box;
+    list-style: none;
+}
+summary svg{
+    color: rgb(1, 92, 1);
+    width: 40px;
+}
+a{
+    color: rgb(152, 201, 85);
+    width: 40px;
+    text-decoration: none;
+    background-color: rgb(139, 90, 43);
+    padding: 10px;
 }
