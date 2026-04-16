@@ -5,15 +5,15 @@ const app = express();
 
 app.use(express.json());
 
-app.get("/processos-judiciais/:numero", async (req, res) => {
-  const { numero } = req.params;
-  const apiUrl = process.env.API_URL!.replace("NUMERO", numero);
-  const response = await fetch(apiUrl);
-  const data = await response.json();
+app.get("/comunicacao?numeroProcesso=:numero", async (req, res) => {
+    const { numero } = req.params;
+    const apiUrl = process.env.API_URL!.replace("NUMERO", numero);
+    const response = await fetch(apiUrl);
+    const data = await response.json();
 
-  res.send(data);
+    res.send(data);
 });
 
 app.listen(3000, () => {
-  console.log("Server running, all checked!");
+    console.log("Server running, all checked!");
 });
