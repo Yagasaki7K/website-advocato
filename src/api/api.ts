@@ -1,6 +1,5 @@
 import express from "express";
 import "dotenv/config";
-import axios from "axios";
 
 const app = express();
 
@@ -9,7 +8,8 @@ app.use(express.json());
 app.get("/processos-judiciais/:numero", async (req, res) => {
   const { numero } = req.params;
   const apiUrl = process.env.API_URL!.replace("NUMERO", numero);
-  const { data } = await axios.get(apiUrl);
+  const response = await fetch(apiUrl);
+  const data = await response.json();
 
   res.send(data);
 });
