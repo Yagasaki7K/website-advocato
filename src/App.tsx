@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { AiOutlineFileProtect } from "react-icons/ai";
 import { MdVerified, MdVerifiedUser } from "react-icons/md";
-import { BsArrowCounterclockwise } from "react-icons/bs";
+import { FaRegTrashAlt } from "react-icons/fa";
 import { FaComments } from "react-icons/fa";
-import "./App.css";
+import "../public/style/App.css";
 
 function App() {
     const [Process, setProcess] = useState("");
@@ -22,12 +22,10 @@ function App() {
                 document.removeEventListener("keydown", handleEsc);
             };
 
-
         }, []);
 
         const handleConsultar = () => {
             if (Process.length < 20) return alert("Numero de processo invalido");
-
             setShowModal(true);
         };
         
@@ -37,7 +35,7 @@ function App() {
         };
 
     return (
-        <div className="Consult">
+        <div className="consultProcess">
             <h1>Advocato</h1>
             <h2>Consulta de processos de forma simples</h2>
             <input
@@ -48,10 +46,10 @@ function App() {
                 placeholder="Insira o número do processo"
                 onChange={(e) => setProcess(e.target.value)}
             />
-            <button onClick={handleConsultar}>Consultar</button> <button  className="Resetprocess" onClick={hadleRepetConsultar}><BsArrowCounterclockwise/></button>
+            <button onClick={handleConsultar}>Consultar</button> <button  className="Resetprocess" onClick={hadleRepetConsultar}><FaRegTrashAlt/></button>
             <br />
             <p>Consulte seus processos de forma clara e rápida</p>
-            
+            <br />
             <div className="info">
                 <h2 className="info-title"><AiOutlineFileProtect/> Como funciona</h2> 
                 <ol>
@@ -64,7 +62,7 @@ function App() {
                    </li>
                 </ol>
             </div>
-            <div className="features">
+            <div className="featureProcess">
                 <p> <MdVerifiedUser/>Dados Publicos</p><p>Sem cadastro</p> <p>Gratuito</p>
             </div>
 
@@ -73,20 +71,26 @@ function App() {
                     <div  onClick={(e) => e.stopPropagation()}>
                         <div className="Resumeprocess">
                             <details>
-                                <summary><FaComments/>Resumo simplificado</summary>
-                                <ul>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
+                                <summary ><FaComments/>Resumo simplificado</summary>
+                                <ul >
+                                    <div className="summaryProcess">
+                                    <li>10 meses e 26 dias de detencao</li>
+                                    <li>Pagamento de multa</li>
+                                    <li>Prestacao de servico comuntario</li>
+                                    </div>
                                 </ul>
                                 <p></p>
                             </details>
                         </div>
-                        <div className="Resumeprocess">
+                        <div className="resumProcess">
                             <details>
                                 <summary><FaComments/>Informação técnicas</summary>
                                 <ul>
-
+                                    <div>
+                                        <li>10 meses e 26 dias de detencao</li>
+                                        <li>Pagamento de multa</li>
+                                        <li>Prestacao de servico comuntario</li>
+                                    </div>
                                 </ul>
                                 <p></p>
                             </details>

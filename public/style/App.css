@@ -29,7 +29,7 @@ h1, h2{
     color: var(--white);
 }
 h1 {
-    background-image: url(/public/logo-transparente.png);
+    background-image: url(/public/img/logo-transparente.png);
     background-repeat: no-repeat;
     background-size: 80px;
     background-position: 40%;
@@ -65,6 +65,14 @@ button {
     cursor: pointer;
     margin-bottom: 10px;
 }
+
+button:hover{
+    background-color: var(--border);
+}
+li{
+    color: white;
+    list-style: none;
+}
 .Resetprocess {
     width: 40px;
     height: 40px;
@@ -74,14 +82,8 @@ button {
     cursor: pointer;
 }
 .Resetprocess svg{
+    height: 20px;
     font-size: 30px;
-}
-button:hover{
-    background-color: var(--border);
-}
-li{
-    color: white;
-    list-style: none;
 }
 .info{
     background: var(--black-alt);
@@ -171,4 +173,23 @@ a{
     text-decoration: none;
     background-color: var(--black-alt);
     padding: 10px;
+}
+.summaryProcess{
+     background: var(--black-alt);
+     padding: 0.25rem 0.5rem;
+     border-radius: 0 5px 5px 0;
+     font-size: 0.75rem;
+     gap: 1rem ;
+     margin-right: 4rem;
+}
+.summaryProcess li {
+    background-color: var(--green);
+    width: 23%;
+    height: 5rem;
+    margin: 20px;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 5px;
+    color: var(--gray);
+    list-style: none;
 }
