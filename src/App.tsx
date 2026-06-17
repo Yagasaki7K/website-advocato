@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { AiOutlineFileProtect } from "react-icons/ai";
 import { MdVerified, MdVerifiedUser } from "react-icons/md";
+import { GiInjustice } from "react-icons/gi";
 import { FaRegTrashAlt } from "react-icons/fa";
 import { FaComments } from "react-icons/fa";
 import "../public/style/App.css";
@@ -46,12 +47,12 @@ function App() {
                 placeholder="Insira o número do processo"
                 onChange={(e) => setProcess(e.target.value)}
             />
-            <button onClick={handleConsultar}>Consultar</button> <button  className="Resetprocess" onClick={hadleRepetConsultar}><FaRegTrashAlt/></button>
+            <button onClick={handleConsultar}>Consultar</button> <button  className="resetProcess" onClick={hadleRepetConsultar}><FaRegTrashAlt/></button>
             <br />
             <p>Consulte seus processos de forma clara e rápida</p>
             <br />
             <div className="info">
-                <h2 className="info-title"><AiOutlineFileProtect/> Como funciona</h2> 
+                <h2 className="infoTitle"><AiOutlineFileProtect/> Como funciona</h2> 
                 <ol>
                    <li> <strong>1</strong> Digite o numero do processo
                    </li>
@@ -86,7 +87,7 @@ function App() {
                             <details>
                                 <summary><FaComments/>Informação técnicas</summary>
                                 <ul>
-                                    <div>
+                                    <div className="summaryProcess">
                                         <li>10 meses e 26 dias de detencao</li>
                                         <li>Pagamento de multa</li>
                                         <li>Prestacao de servico comuntario</li>
@@ -94,11 +95,14 @@ function App() {
                                 </ul>
                                 <p></p>
                             </details>
-                        </div>
-                    </div>
-                    <br />
+                            </div>
+                      </div>
                 </div>
             )}
+           <div>
+             <br />
+              <span> <a href="https://www.cnj.jus.br/">CONSELHO NACIONAL DA JUSTICA  <GiInjustice/>  </a></span>
+          </div>
         </div>
     );
 }
